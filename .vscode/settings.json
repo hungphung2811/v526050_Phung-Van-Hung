@@ -1,0 +1,9 @@
+{
+    "java.jdt.ls.java.home": "D:\\javakit",
+    "java.project.sourcePaths": ["."],
+    "java.debug.settings.vmArgs": "-Dstdout.encoding=UTF-8 -Dfile.encoding=UTF-8",
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "D:\\javakit",
+        "PATH": "D:\\javakit\\bin;${env:PATH}"
+    }
+}
