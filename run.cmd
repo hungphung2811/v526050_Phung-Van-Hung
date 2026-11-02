@@ -10,7 +10,7 @@ if "%~1"=="" (
 )
 set "OUT=%~dp0out"
 set "SRC=%TEMP%\java_sources.txt"
-dir /s /b "%~dp0b1\*.java" "%~dp0b2\*.java" "%~dp0b3\*.java" > "%SRC%"
+dir /s /b "%~dp0b1\*.java" "%~dp0b2\*.java" "%~dp0b3\*.java" "%~dp0b3_oop\*.java" > "%SRC%"
 "%JDK%\bin\javac.exe" -encoding UTF-8 -d "%OUT%" @"%SRC%"
 if errorlevel 1 exit /b 1
 "%JDK%\bin\java.exe" -Dstdout.encoding=UTF-8 -cp "%OUT%" %*
