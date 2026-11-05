@@ -1,4 +1,4 @@
-package b3_oop;
+package b4;
 
 public class Diem2D {
     protected double x;

@@ -1,4 +1,4 @@
-package b3_oop;
+package b4;
 
 public class Diem3D extends Diem2D {
     private double z;
